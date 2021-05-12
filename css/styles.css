@@ -54,3 +54,19 @@ section::after
     justify-content: center;
     align-items: center;
 }
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box h3
+{
+    color: #9d2cb1;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
