@@ -15,6 +15,11 @@ section{
     min-height: 100vh;
 }
 
+section.dark
+{
+    background: #161623;
+}
+
 section::before
 {
     content: '';
@@ -152,9 +157,20 @@ section::after
     align-items: center;
 }
 
+.dark .toggle
+{
+    background: #fff;
+}
+
 .toggle::before
 {
     content: '\f186';
     font-family: fontAwesome;
     color: #fff;
+}
+
+.dark .toggle::before
+{
+    content: '\f185';
+    color: #161623;
 }
