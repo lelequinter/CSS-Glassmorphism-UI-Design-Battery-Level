@@ -129,3 +129,22 @@ section::after
     background: linear-gradient(90deg,#9c28af,#fd2c72);
     border-radius: 4px;
 }
+
+.percent
+{
+    color: #fe3177;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.toggle
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #161623;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
