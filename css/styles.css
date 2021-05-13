@@ -31,6 +31,11 @@ section::before
     transform: translate(-150px,-100px);
 }
 
+section.dark::before
+{
+    background: linear-gradient(#ffc107,#e91e63);
+}
+
 section::after
 {
     content: '';
@@ -40,6 +45,11 @@ section::after
     background: linear-gradient(#ff2871,rgba(255,40,113,0.2));
     border-radius: 50%;
     transform: translate(150px,150px);
+}
+
+section.dark::after
+{
+    background: linear-gradient(#2196f3,#31ff38);
 }
 
 .box
